@@ -1,0 +1,79 @@
+body {
+  background-color: #504945;
+  min-height: 99vh;
+  display: grid;
+  grid-template-rows: auto auto auto 1fr;
+}
+
+h1 {
+  color: #ebdbb2;
+  text-align: center;
+  font-family: 'Courier New', 'Courier', monopace;
+}
+
+
+p {
+  color: #d5c5a1;
+  font-family: 'VT323', 'Courier', monopace;
+  font-size: 20px;
+}
+
+
+.projects {
+  justify-content: center;
+  display: flex;
+  grid-row: 3;
+  gap: 10px;
+}
+
+.degree {
+  justify-content: center;
+  font-family: 'Courier New', 'Courier', monopace;
+  gap: 15px;
+  text-align: center;
+  color: #fe8019;
+}
+
+.degree p {
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px groove;
+  display: inline-block;
+  clear: both;
+  color: #fabd2f;
+}
+
+.degree h3 {
+  font-family: 'Courier New', 'Courier', monopace;
+  color: #fe8019;
+}
+
+.degree h2 {
+  font-family: 'Courier New', 'Courier', monopace;
+  color: #fe8019;
+}
+
+footer {
+  font-family: 'Courier New', 'Courier', monopace;
+  text-align: center;
+  padding: 3px;
+  background-color: #458588;
+  color: white;
+}
+
+
+#card{
+    background-color: #504945;  
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #3c3836;
+    color: #ebdbb2;
+    border: 1px solid #7c6f4e; 
+}
+
+.proj-img {
+  height: 20vh;
+  max-width: 100%;
+  object-fit: fit;
+}
